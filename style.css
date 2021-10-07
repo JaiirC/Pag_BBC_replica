@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+
+}
+.header{
+    background: rgb(187, 0, 0) ;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.header__logo{
+    border-bottom: solid 1px  ;
+    border-color: aliceblue;
+}
+.header__button{
+    margin: 0 10% 0 10%;
+
+    border-bottom: solid 1px  ;
+    border-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.header__button button{
+    background-color:   transparent;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+.header__button2{
+    margin: 0 10% 0 10%;
+
+    border-bottom: solid 1px  ;
+    border-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+}
+
+.header__button2 button{
+    background-color:   transparent;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin: 20px 50px 0 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__card{
+    display: flex;
+    width: 100%;
+    margin: 20px 30px 0 30px;
+}
+
+.container__card img{
+    width:  250px;
+    height: 140px;
+}
+
+.card--info{
+    display: flex;
+    flex-direction: column;
+}
