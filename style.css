@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Slab:wght@300;400&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -15,6 +17,7 @@ body{
     display: flex;
     width: 100%;
     flex-direction: column;
+    
 }
 
 .header__logo{
@@ -38,9 +41,10 @@ body{
     background-color:   transparent;
     text-decoration: none;
     padding: 8px;
-    font-size: 16px;
+    font-size: 15.1px;
     color: white;
     border: none;   
+    font-family: 'Raleway', sans-serif;
 }
 
 .header__button2{
@@ -79,13 +83,14 @@ main{
 .container__card{
     display: flex;
     margin: 20px 0 10px 0;
-    
+    width: 100%;
 }
 
 .container__card img{
     width:  576px;
     height: 240px;
     margin-right: 10px;
+    
 }
 
 .card--info{
@@ -136,18 +141,19 @@ main{
 /*cuadro de noticias*/
 .container__noticias{
     display: flex;
-    width: 100%;
     margin: 20px 0 10px 0;
-
+    width: 100%;
 }
 
 .noticias__cards{
-    margin: 0 10px 0 0;
+    position: relative;
+    margin: 0 5px 0 0;
 
 }
 .noticias__cards img{
-    width: 220px;
+    width: 215px;
     height: 128px;
+    
     
 }
 
@@ -161,11 +167,12 @@ main{
 
 
 .noticias__cards1{
-    margin: 0 10px 0 10px;
+    margin: 0 3px 0 3px;
 }
 .noticias__cards1 img{
-    width: 220px;
+    width: 215px;
     height: 128px;
+    
     
 }
 
@@ -179,11 +186,12 @@ main{
 
 
 .noticias__cards2{
-    margin: 0 0 0 10px;
+    margin: 0 0 0 5px;
 }
 .noticias__cards2 img{
-    width: 220px;
+    width: 215px;
     height: 128px;
+    
     
 }
 
@@ -202,6 +210,14 @@ main{
     justify-content: flex-start;
     margin: 20px;
 }
+.cuadro__noticias span{
+    font-size: 1.5rem;
+    line-height: 2rem;  
+}
+.cuadro__noticias span{
+
+    right: -140px;
+}
 
 /*noticias 2*/
 .noticias{
@@ -214,16 +230,19 @@ main{
     display: flex;
     flex-direction: column;
     margin: 0 10px 0 0;
+  
 }
 
 .noticias--card h3{
-    width: 220px;
+    width: 200px;
+    margin-bottom: 10px;
 }
 .noticias--img{
     margin: 0 20px 0 20px;
 }
 .noticias--img img{
-    width: 460px;
+    width: 435px;
+    height: 100%;
 }
 
 .noticias--cards{
@@ -232,6 +251,6 @@ main{
 }
 
 .noticias--cards img{
-    width: 220px;
+    width: 208px;
     height: 128px;
 }
