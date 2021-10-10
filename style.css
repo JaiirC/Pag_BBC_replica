@@ -128,13 +128,13 @@ main{
 .container .container__card:hover{
     cursor: pointer;
 }
-.container__card:hover h3, h3:hover{
+.container__card:hover h3 {
     cursor: pointer;
     text-decoration: underline;
 }
 
 
-.card--info p{
+.card--info p1{
     font-weight: 500;
     font-style: normal;
     font-size: 0.9375rem;
@@ -154,7 +154,7 @@ main{
 /*cuadro de noticias*/
 .container__noticias{
     display: flex;
-    margin: 20px 0 10px 0;
+    margin: 10px 0 10px 0;
     width: 100%;
 }
 
@@ -274,6 +274,9 @@ main{
     margin: 20px 30px 10px 30px;
 }
 
+.card__1 {
+    display: flex;
+}
 .noticias--card{
     display: flex;
     flex-direction: column;
@@ -292,7 +295,13 @@ main{
     width: 435px;
     height: 100%;
 }
+.noticias:hover{
+    cursor: pointer;
+}
 
+.card__1:hover h3{
+    text-decoration: underline;
+}
 .noticias--cards{
     display: flex;
     flex-direction: column;
@@ -309,4 +318,98 @@ main{
     font-size: 0.875rem;
     line-height: 1.125rem;
     color: #6E6E73;
+}
+
+.noticias--cards:hover p{
+    text-decoration: underline;
+}
+
+
+/*Redes sociales*/
+
+.container__redes{
+    display: flex;
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+.container__redes img{
+    border-left: solid 1px #6E6E73;
+}
+.redes--sociales{
+    position: relative;
+    margin: 0 5px 0 0;
+
+}
+.redes--sociales img{
+    width: 215px;
+    height: 128px;
+    
+    
+}
+
+.container__noticias .noticias__cards:hover{
+    cursor: pointer;
+}
+.noticias__cards:hover p, p:hover{
+        text-decoration: underline;  
+}
+
+.redes--sociales1{
+    margin: 0 3px 0 3px;
+}
+.redes--sociales1 img{
+    width: 215px;
+    height: 128px;
+    
+    
+}
+
+.container__noticias .noticias__cards1:hover{
+    cursor: pointer;
+}
+.noticias__cards1:hover p, p:hover{
+        text-decoration: underline;  
+}
+
+.redes--sociales2{
+    margin: 0 0 0 5px;
+}
+.redes--sociales2 img{
+    width: 215px;
+    height: 128px;
+    
+    
+}
+
+.container__noticias .noticias__cards2:hover{
+    cursor: pointer;
+}
+.noticias__cards2:hover p, p:hover{
+        text-decoration: underline;  
+}
+
+/* footer*/
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.logo__footer{
+    background: rgb(187, 0, 0) ;
+}
+.logo__footer img{
+    margin-left: 3%;
+    height: 245px;
+    height: 55px;
+}
+
+.info--footer {
+    background: rgb(37, 35, 35) ;
+}
+
+.footer__parts{
+    margin: 10px 3% 0 3%;
 }
