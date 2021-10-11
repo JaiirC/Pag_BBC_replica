@@ -122,7 +122,7 @@ main{
     padding-bottom: 0.5rem;
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
-    font-style: normal;
+    font-style:inherit;
     font-size: 1.50rem;
     line-height: 1.625rem;
     text-decoration: none;
@@ -131,7 +131,7 @@ main{
 .container .container__card:hover{
     cursor: pointer;
 }
-.container__card:hover h3 {
+.container__card h3:hover {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -143,14 +143,29 @@ main{
     font-size: 0.9375rem;
     line-height: 1.25rem;
     margin-bottom: 10px;
+    color: #242425d3 ;
 }
 
 .card--info span{
+    padding-bottom: 10px;
     font-weight: 500;
     font-style: normal;
     font-size: 0.875rem;
     line-height: 1.125rem;
     color: #6E6E73;
+   /* border-bottom: solid 1px #adadad;*/
+
+}
+
+.card--info h4{
+    font-size: 12px;
+    color: #313131;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+.card--info h4:hover{
+    text-decoration: underline;
 }
 
 
@@ -472,8 +487,14 @@ main{
     color: white;
 }
 
+.footer p:hover{
+    cursor: pointer;
+   
+}
 .logo__footer{
+    display: flex;
     background: rgb(187, 0, 0) ;
+    align-items: flex-end;
 }
 .logo__footer img{
     margin-left: 3%;
@@ -481,6 +502,10 @@ main{
     height: 55px;
 }
 
+.footer img:hover{
+    cursor: pointer;
+    border-bottom: solid 2px aliceblue;
+}
 .info--footer {
     background: rgb(37, 35, 35) ;
 }
